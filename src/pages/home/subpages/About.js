@@ -29,7 +29,7 @@ export default class About extends React.Component {
         };
         let ulInfoZh = [
             {title: '分布式网络化', desc: "生物医药、医疗器械行业领先企业，外资医院，科研院所集聚"},
-            {title: '保税研发', desc: '进口研发设备免税、进口试剂保税'},
+            {title: '保税研发', desc: '进口研发设备保税、进口试剂耗材减免关税、增值税。（具体以海关政策为准）'},
             {title: '跨境双向', desc: '中外合作研发、学术交流、跨境加速营'}
         ];
         let ulInfoEn = [
@@ -113,7 +113,7 @@ export default class About extends React.Component {
                         <Col span={24}>
                             <img src={dcs2} alt="dcs2"/>
                             <h3>{ulInfo[1].title}</h3>
-                            <p>
+                            <p style={{margin:'0 20px'}}>
                                 {ulInfo[1].desc}
                             </p>
                         </Col>
